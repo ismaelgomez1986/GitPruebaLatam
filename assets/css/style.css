@@ -2,12 +2,13 @@ body {
 margin: 0 2px;
     background-color: #010216;
     text-decoration-color: #ffffff;
-    font-family: 'roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'oxygen', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 300;
 }
 
-h3, h5 {
+body p, h3, h4, h5 {
     font-weight: 300;
+    font-family: 'oxygen', 'Lucida Sans';
 }
 
 a img {
