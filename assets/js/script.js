@@ -13,3 +13,12 @@ $(function () {
     })
 
 });
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  })
+  
+  $("img").on("click", function() {
+    var imgcard = $(this).attr('id');
+    $(`.${imgcard}Toggle`).toggle(500);
+  });
