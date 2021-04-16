@@ -1,3 +1,4 @@
+//smooth scroll//
 $(function () {
     $("a").click(function (event) {
         if (this.hash !==""){
@@ -13,7 +14,7 @@ $(function () {
     })
 
 });
-
+//tooltip -> hide text on "destacados" section//
 $(function () {
     $('[data-toggle="tooltip"]').tooltip();
 })
